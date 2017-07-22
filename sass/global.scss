@@ -1,0 +1,27 @@
+.align-list {
+    margin-top: 20px;
+    list-style-type: none;
+}
+
+.list-text {
+    font-size: $main-fnt-sz;
+    li {
+        margin-bottom: 5px;
+    }
+}
+
+.spacer {
+    margin-bottom: 100px;
+}
+
+span.detail {
+    font-size: $detail-fnt-sz;
+}
+
+.red-txt {
+    color: $gw-red;
+}
+
+.disable {
+    pointer-events: none;
+}

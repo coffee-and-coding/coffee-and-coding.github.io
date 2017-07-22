@@ -1,0 +1,29 @@
+.align-list {
+  margin-top: 20px;
+  list-style-type: none; }
+
+.list-text {
+  font-size: 1.8em; }
+  .list-text li {
+    margin-bottom: 5px; }
+
+.spacer {
+  margin-bottom: 100px; }
+
+span.detail {
+  font-size: 0.8em; }
+
+.red-txt {
+  color: #7A1501; }
+
+.disable {
+  pointer-events: none; }
+
+nav.navbar-default {
+  background-color: #7A1501; }
+  nav.navbar-default .navbar-brand {
+    color: #F9DA0C; }
+  nav.navbar-default .navbar-nav li a {
+    color: #F9DA0C; }
+  nav.navbar-default .navbar-nav .dropdown ul.dropdown-menu li a {
+    color: black; }

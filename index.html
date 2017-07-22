@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Alexander McCormick">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="css/bootstrap-3.3.7.min.css" type="text/css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <title>Coffee and Coding!</title>
+</head>
+
+<body>
+    <!-- START NAV -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bootcamp-navbar" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Coffee and Coding!</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bootcamp-navbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="resources.html">Resources</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Lessons <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#welcome">Welcome</a></li>
+                            <li><a href="#intro">Intro</a></li>
+                            <li><a href="#html">HTML</a></li>
+                            <li><a href="#tags">Basic Tags</a></li>
+                            <li><a href="#css">CSS</a></li>
+                            <li><a href="#challenge">Challenge!</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    <!-- END NAV -->
+    <!-- START HERO -->
+    <div class="hero">
+        <div class="container">
+            <div class="row">
+                <img class="img-responsive center-block" src="img/logo.jpg" alt="Geekwise Logo">
+            </div>
+            <div class="row">
+                <h1 class="text-center spacer">Coffee and Coding!</h1>
+            </div>
+        </div>
+    </div>
+    <!-- END HERO -->
+    <!-- START MAIN CONTENT -->
+    <div class="container">
+        <div id="welcome" class="row spacer">
+            <div class="col-md-3 text-right">
+                <h2 class="red-txt">Welcome!</h2>
+            </div>
+            <div class="col-md-9">
+                <ul class="align-list list-text">
+                    <li>What Are Websites Made Of?</li>
+                    <li>CSS</li>
+                    <li>Project</li>
+                </ul>
+            </div>
+        </div>
+        <div id="lingo" class="row spacer">
+            <div class="col-md-3 text-right">
+                <h2 class="red-txt">Intro</h2>
+            </div>
+            <div class="col-md-9">
+                <ul class="align-list list-text">
+                    <li>HTML - <span class="detail">Hyper Text Markup Language<span></li>
+                    <li>Tags/Elements: <span class="detail">How Do We Use These?</span></li>
+                    <li>CSS (styles)</li>
+                </ul>
+            </div>
+        </div>
+        <div id="html" class="row spacer">
+            <div class="col-md-3 text-right">
+                <h2 class="red-txt">HTML<br><span class="detail">(Behind the Scenes)</span></h2>
+            </div>
+            <div class="col-md-9">
+                <p data-height="295" data-theme-id="0" data-slug-hash="oevWEM" data-default-tab="html,result" data-user="mccormick-a" data-embed-version="2" data-pen-title="oevWEM" data-preview="true" class="codepen">See the Pen <a href="https://codepen.io/mccormick-a/pen/oevWEM/">oevWEM</a> by Alexander McCormick (<a href="https://codepen.io/mccormick-a">@mccormick-a</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+                <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+            </div>
+        </div>
+        <div id="tags" class="row spacer">
+            <div class="col-md-3 text-right">
+                <h2 class="red-txt">Basic tags<br><span class="detail">(and what they do)</span></h2>
+            </div>
+            <div class="col-md-9">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>Tag Name</th>
+                            <th>What's It Do?</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><code>&lt;!DOCTYPE html&gt;</code></td>
+                            <td>Tells browser what type of document we are giving it</td>
+                        </tr>
+                        <tr>
+                            <td><code>&lt;head&gt;</code></td>
+                            <td>Provides metadata to the browser</td>
+                        </tr>
+                        <tr>
+                            <td><code>&lt;body&gt;</code></td>
+                            <td>Element that contains what we want to give the browser to display</td>
+                        </tr>
+                        <tr>
+                            <td><code>&lt;div&gt;</code></td>
+                            <td>Defines a <b>div</b>ision or a section in an HTML document</td>
+                        </tr>
+                        <tr>
+                            <td><code>&lt;h1&gt;</code>-<code>&lt;h6&gt;</code></td>
+                            <td>Defines an HTML heading <br>( 'h' = header | '#' = Level of importance <a href="htags.html">example</a> )</td>
+                        </tr>
+                        <tr>
+                            <td><code>&lt;p&gt;</code></td>
+                            <td>Defines a paragraph section</td>
+                        </tr>
+                        <tr>
+                            <td><code>&lt;a href=" "&gt;</code></td>
+                            <td>Defines a <abbr title="fancy word for 'just a link'">hyperlink</abbr> to direct you to a different page <br>( one required attribute: <code>href=""</code> )</td>
+                        </tr>
+                        <tr>
+                            <td><code>&lt;img src=" " alt=" "&gt;</code></td>
+                            <td>Defines an image for the browser to load <br>( two required attributes: <code>src=""</code> and <code>alt=""</code> )</td>
+                        </tr>
+                        <tr>
+                            <td><code>&lt;ul&gt;</code> or <code>&lt;ol&gt;</code></td>
+                            <td>Defines an <i>unordered list</i> or an <i>ordered list</i></td>
+                        </tr>
+                        <tr>
+                            <td><code>&lt;li&gt;</code></td>
+                            <td>Defines a <i>list item</i> <br>( always nested in either <code>&lt;ul&gt;</code> or <code>&lt;ol&gt;</code> tags )</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div id="css" class="row spacer">
+            <div class="col-md-3 text-right">
+                <h2 class="red-txt">CSS <br><span class="detail">( Cascading Style Sheets )</span></h2>
+            </div>
+            <div class="col-md-9">
+                <ul class="align-list list-text">
+                    <li>CSS Selectors!</li>
+                    <li>What is a Class?</li>
+                    <li>What is an ID?</li>
+                    <li>CSS Positioning</li>
+                </ul>
+            </div>
+        </div>
+        <div id="challenge" class="row spacer">
+            <div class="col-md-3 text-right">
+                <h2 class="red-txt">Project</h2>
+            </div>
+            <div class="col-md-9">
+                <ul class="align-list list-text">
+                    <li>Putting Pieces together</li>
+                    <li>Nesting</li>
+                    <li>Classes</li>
+                    <li>Positioning</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- END MAIN CONTENT -->
+
+
+    <script type="text/javascript" src="js/jquery-3.2.0.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap-3.3.7.min.js"></script>
+</body>
+
+</html>
